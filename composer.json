@@ -1,12 +1,24 @@
 {
     "name": "ambersive/statamic-fields",
     "description": "Extend the fields for statamic",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Manuel.PirkerIhl",
+            "email": "manuel.pirker-ihl@ambersive.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "statamic/cms": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "Ambersive\\StatamicFields\\": "src"
         }
     },
     "extra": {
+        "component": "package",
         "statamic": {
             "name": "Statamic Fields",
             "description": "Extend the fields for statamic."
