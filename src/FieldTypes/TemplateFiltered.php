@@ -6,6 +6,7 @@ use Statamic\Fields\Fieldtype;
 
 class TemplateFiltered extends Fieldtype
 {
+    protected $icon = 'template';
 
     protected function configFieldItems(): array
     {
