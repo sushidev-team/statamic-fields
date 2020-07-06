@@ -1,0 +1,20 @@
+{
+    "name": "ambersive/statamic-fields",
+    "description": "Extend the fields for statamic",
+    "autoload": {
+        "psr-4": {
+            "Ambersive\\StatamicFields\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Fields",
+            "description": "Extend the fields for statamic."
+        },
+        "laravel": {
+            "providers": [
+                "Ambersive\\StatamicFields\\ServiceProvider"
+            ]
+        }
+    }
+}
