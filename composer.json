@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "statamic/cms": "dev-master"
+        "statamic/cms": "3.*|dev-master"
     },
     "autoload": {
         "psr-4": {
